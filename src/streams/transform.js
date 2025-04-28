@@ -10,7 +10,7 @@ const transform = async () => {
   });
 
   console.log(
-    "Type something and it will be reversed. Press Ctrl+D to finish."
+    "Type something and it will be reversed. Press Ctrl+C to finish."
   );
 
   process.stdin.pipe(reverseTransform).pipe(process.stdout);
