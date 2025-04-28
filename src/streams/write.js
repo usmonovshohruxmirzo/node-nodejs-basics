@@ -8,7 +8,7 @@ const write = async () => {
   process.stdin.pipe(writeStream);
 
   console.log(
-    `Start typing to write into file ${filePath}. Press Ctrl+D to finish.`
+    `Start typing to write into file ${filePath}. Press Ctrl+C to finish.`
   );
 
   process.stdin.on("error", (err) => {
